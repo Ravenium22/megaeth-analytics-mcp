@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "megaeth-analytics": {
+      "command": "node",
+      "args": ["/path/to/megaeth-analytics-mcp/dist/index.js"],
+      "env": {
+        "MCP_MODE": "true",
+        "LOG_LEVEL": "error",
+        "MEGAETH_RPC_URL": "https://carrot.megaeth.com/rpc"
+      }
+    }
+  }
+}
