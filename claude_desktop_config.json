@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "megaeth-analytics": {
+      "command": "node",
+      "args": ["C:/Users/PC/Desktop/MCMEGA/dist/index.js"],
+      "env": {
+        "DB_HOST": "127.0.0.1",
+        "DB_PORT": "5432",
+        "DB_NAME": "megaeth_analytics",
+        "DB_USER": "postgres",
+        "DB_PASSWORD": "",
+        "MEGAETH_RPC_URL": "https://carrot.megaeth.com/rpc",
+        "API_PORT": "3000",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}
